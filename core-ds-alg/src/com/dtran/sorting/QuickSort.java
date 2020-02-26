@@ -39,11 +39,7 @@ public class QuickSort implements Sorter {
     }
 
     public static void main(String[] args) {
-        Sorter sorter = new QuickSort();
-        int[] arr = {4, 3, 1, 5, 7};
-        int[] sortedArray = sorter.sort(arr);
-        for (int i : sortedArray) {
-            System.out.print(i + " ");
-        }
+        Sorter.testSort(new QuickSort());
     }
+
 }
