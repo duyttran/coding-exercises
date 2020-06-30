@@ -1,0 +1,4 @@
+anagram
+reversing linked list
+file server system (dfs)
+find median of 2 sorted array
